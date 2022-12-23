@@ -1,0 +1,7 @@
+version: '3.0' 
+services: 
+  jira:
+    container_name: jira 
+    image: atlassian/jira-software:latest
+    ports:
+      - "80:8080"
